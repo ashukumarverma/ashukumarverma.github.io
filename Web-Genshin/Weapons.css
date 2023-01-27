@@ -1,0 +1,98 @@
+li {
+    color: khaki; font-family: fantasy; 
+}
+li :hover {color: lightcoral; font-family: sans-serif;
+
+}
+
+body {
+    background-image: linear-gradient(rgb(226, 244, 248), rgb(110, 219, 210));
+}
+
+h2 {
+    text-align: center;
+    color: brown;
+}
+
+#weapon{
+    width: 20vw;
+    overflow: hidden;
+    display: inline-block;
+    height: 30vh;
+}
+
+
+
+.Claymore {
+    background-color: rgb(133, 189, 43);
+    display: inline-block;
+    block-size: 20vw;
+    border-block-width: 5px;
+    width: 17vw;
+    
+    
+}
+
+.Polearm {
+    background-color: rgb(206, 143, 49);
+    display: inline-block;
+    block-size: 20vw;
+    border-block-width: 5px;
+    width: 17vw;
+
+    
+}
+
+.Sword {
+    background-color: rgb(100, 218, 153);
+    display: inline-block;
+    block-size: 20vw;
+    border-block-width: 5px;
+    width: 17vw;
+    
+}
+.Bow {
+    background-color: rgba(100, 218, 198, 0.76);
+    display: inline-block;
+    block-size: 20vw;
+    border-block-width: 5px;
+    width: 17vw;
+    
+}
+
+.Catalyst {
+    background-color: rgb(212, 124, 230);
+    display: inline-block;
+    block-size: 20vw;
+    border-block-width: 5px;
+    width: 17vw;
+    
+}
+
+#wps {
+    position: relative;
+    width: 8vw;
+}
+
+
+#wps:hover {
+    transform: scale(1.2); transition-duration: 0.5s;
+}
+
+#weapon:hover {
+    background-color: rgb(243, 170, 170);
+    
+}
+
+fieldset:hover {
+    transform: scale(1.2); transition-duration: 1s;
+    width: 30vw;
+    background-color: rgb(243, 170, 170);
+    
+    
+}
+#all {
+    overflow-x: auto;
+    padding-top: 5%;
+    
+}

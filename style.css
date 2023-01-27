@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+}
+
+/*body Header*/
+#body-header {
+    height: 45vh;
+    opacity: 0.9;
+    background-image: linear-gradient(rgb(4, 61, 105), rgb(35, 161, 196));
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*Horizontal lists*/
+
+.horizontal-list {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 5px 10px 10px 0;
+}
+
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu {
+    transition: color .5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: rgb(240, 234, 234);
+    border-bottom: 1px solid white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/*name and social*/
+#my-name {
+    font-size: 3rem;
+    letter-spacing: .1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.social-icons li a {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+.social-icons li a:hover {
+    box-shadow: 0 0 4px 2px rgb(231, 225, 225);
+}
+
+section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-heading {
+    width: auto;
+    padding: 20px 10px 10px;
+    margin: 10px auto ;
+}
+.section-heading span{
+    font-size: 40px;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+section:nth-child(2n+1) {
+    background-color: rgb(208, 225, 240);
+
+}
+section:nth-child(2n) {
+    background-color: rgb(190, 198, 201);
+}
+/* image style */
+
+#my-image {
+    position: relative;
+    top: -17vh;
+    height: 30vh;
+    margin: auto;
+    /* margin-top: -17vh; */
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+}
+
+
+/* -------- */
+#skills, #projects, #experience, #education, #portfolio, #contact{
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin: auto;
+}
+
+.text-highlight {
+    color: #132f5d;
+    font-weight: 500;
+}
+
+/*about section*/
+#about {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+
+
+#about-para{
+    padding:10px;
+    width: 75%;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin: auto;
+}
+
+/* portfolio */
+
+.portfolio-div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+.portfolio-div div{
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+    margin: 0 20px 30px;
+    border-radius: 5%;
+}
+
+.port-img {
+    overflow: hidden;
+}
+.tea img, .coin img{
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+.port-img img{
+    width: 100%;
+}
+
+.port-img:hover{
+transform: scale(1.2);
+opacity: .8;
+}
+
+/* contact */
+
+.contact-div{
+    display: flex;
+    margin: auto;
+}
+.contact-div .mail{
+    border: solid 1px;
+    border-radius: 10%;
+    height: 30px;
+    width: 60px;
+    margin: 10px 15px 50px;
+    text-align: center;
+    background-image: linear-gradient(rgb(233, 78, 78), rgb(57, 186, 203));
+}

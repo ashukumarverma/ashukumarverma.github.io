@@ -1,0 +1,133 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(120, 100, 100);
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.174);
+    width: 200px;
+    padding: 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 28%;
+    left: 50%;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, .5);
+    border-radius: 15px;
+    -webkit-perspective: 200px;
+    perspective: 200px;
+
+}
+
+p {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.records {
+    position: absolute;
+    top: 65%;
+    text-align: right;
+    font-weight: 600;
+    font-style: oblique;
+}
+
+.heads,
+.tails {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+}
+
+.heads {
+
+    background-image: linear-gradient(rgb(223, 93, 93), rgb(209, 209, 132));
+}
+
+.tails {
+
+    background-image: linear-gradient(rgb(154, 241, 154), rgb(114, 114, 220));
+}
+
+.faceH {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 30%;
+    font-size: 40px;
+    text-shadow: 2px 1px 1px rgb(10, 79, 139);
+       
+}
+
+.faceT {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    font-size: 40px;
+    overflow: hidden;
+    text-shadow: 2px 1px 1px rgb(10, 79, 139);
+    
+}
+
+
+.coin {
+    border: solid 2px black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    margin: 50px auto;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+
+}
+
+.heads {
+    transform: rotateX(180deg);
+}
+
+@keyframes spin-heads {
+    0% {
+        transform: rotateX(0);
+    }
+
+    100% {
+        transform: rotateX(3420deg);
+    }
+
+}
+
+@keyframes spin-tails {
+    0% {
+        transform: rotateX(0);
+    }
+
+    100% {
+        transform: rotateX(2160deg);
+    }
+
+}
+
+button {
+    border-radius: 5px;
+    margin: 27px;
+    background: linear-gradient(blue, green);
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    background: rgb(255, 98, 0);
+    position: relative;
+}

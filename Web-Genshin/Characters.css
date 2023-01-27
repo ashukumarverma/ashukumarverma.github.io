@@ -1,0 +1,164 @@
+/* body design */
+
+body {
+    background-color: rgba(112, 8, 8, 0.24);
+}
+
+/* navigation design */
+nav{
+    margin: auto;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    list-style-type: none;
+}
+li {
+    margin: 20px; 
+}
+li :hover {color: rgb(66, 59, 59); font-family: sans-serif;
+}
+
+/* character fieldset gradiant */
+
+.Pyro {
+    background-image: linear-gradient(rgba(112, 8, 8, 0.24), rgb(184, 58, 58));
+}
+.Cryo {background-image: linear-gradient(rgb(220, 258, 250), rgb(21, 145, 180));}
+
+
+.Electro {
+    background-image: linear-gradient(rgb(240, 225, 245), rgb(155, 84, 245));
+}
+
+.Geo {
+    background-image: linear-gradient(rgb(248, 246, 218), rgb(184, 125, 15));
+}
+
+.Anemo {
+    background-image: linear-gradient(rgb(226, 244, 248), rgba(23, 167, 155, 0.781));
+}
+
+.Hydro {
+    background-image: linear-gradient(rgb(218, 241, 248), rgb(65, 154, 196));
+}
+/* ----- */
+fieldset{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+
+/* Characters cards design */
+
+#pyro, #cryo, #electro, #hydro, #geo, #anemo {
+    width: 15vw;
+    min-width: 130px;
+    border-style: hidden; border-radius: 15px; padding: 5px;
+}
+
+#geo:hover, #electro:hover, #pyro:hover, #hydro:hover, #cryo:hover, #anemo:hover  {
+    transform: scale(1.2); transition-duration: 0.5s;
+}
+
+legend {
+    text-align: center;
+    text-decoration: solid;
+    font-size: 5vw;
+    text-shadow: 1px 1px 1px #919191,
+    1px 2px 1px #919191,
+    1px 5px 1px #919191,
+    1px 4px 1px #919191,
+    1px 5px 1px #919191,
+    1px 6px 1px #919191,
+    1px 5px 1px #919191,
+    1px 8px 1px #919191,
+    1px 9px 1px #919191,
+    1px 9px 1px #919191,
+1px 18px 6px rgba(16,16,16,0.4),
+1px 22px 9px rgba(16,16,16,0.2),
+1px 25px 55px rgba(16,16,16,0.2),
+1px 50px 60px rgba(16,16,16,0.4);
+}
+
+
+fieldset.Pyro {
+    color: rgb(121, 54, 5);
+}
+fieldset.Cryo {
+    color: rgb(58, 158, 155);
+}
+fieldset.Electro {
+    color: rgb(90, 19, 184);
+}
+fieldset.Geo {
+    color: rgb(141, 121, 9);
+}
+fieldset.Anemo {
+    color: rgb(65, 151, 98);
+}
+fieldset.Hydro {
+    color: rgb(55, 95, 195);
+}
+
+#pyro:hover {
+    box-shadow:
+    0 0 5px #fff,
+    0 0 9px #fff,
+    0 0 15px rgb(255, 166, 0),
+    0 0 25px rgb(255, 60, 0);
+}
+#cryo:hover {
+    box-shadow:
+    0 0 5px #fff,
+    0 0 9px #fff,
+    0 0 15px rgb(0, 19, 255),
+    0 0 25px rgb(0, 255, 255);
+}
+#electro:hover {
+    box-shadow:
+    0 0 5px #fff,
+    0 0 9px rgb(168, 94, 202),
+    0 0 15px rgb(19, 15, 146),
+    0 0 25px rgb(81, 12, 158);
+}
+#geo:hover {
+    box-shadow:
+    0 0 5px rgb(216, 207, 131),
+    0 0 9px rgb(170, 141, 10),
+    0 0 15px rgb(136, 113, 8),
+    0 0 25px rgb(99, 85, 6);
+}
+#anemo:hover {
+    box-shadow:
+    0 0 5px #fff,
+    0 0 9px #fff,
+    0 0 15px #0ff,
+    0 0 25px #0fa;
+}
+#hydro:hover {
+    box-shadow:
+    0 0 5px #fff,
+    0 0 9px #fff,
+    0 0 15px rgb(38, 231, 231),
+    0 0 25px rgb(11, 185, 197);
+}
+
+
+
+
+/*   _______    */
+
+h2{
+    border: solid rgb(118, 98, 16) ; border-radius: 15px; border-width: 5px; border-style: ridge; 
+}
+header { 
+    font-size: 30px;
+    text-shadow:
+    1px 1px 2px red,
+    2px 2px 2px blue;
+}
